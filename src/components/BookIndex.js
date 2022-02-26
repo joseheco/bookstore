@@ -1,7 +1,7 @@
 import React from 'react';
 import Book from './Book';
 import BookForm from './BookForm';
-import './Book.css'
+import './Book.css';
 
 const BookCreate = () => (
   <>
