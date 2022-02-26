@@ -30,7 +30,7 @@ const BookForm = () => {
 
   const sumitBook = (e) => {
     e.preventDefault();
-    if (title.trim() === '' || category.trim() === '') {
+    if (title === '' || category === '') {
       setErrorBook('Please fill all fields and Category');
     } else {
       const newBook = {
