@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BookTitle() {
+const BookTitle = () => {
   return (
     <div className="title">
       <p>Mystery</p>
@@ -14,3 +14,5 @@ export default function BookTitle() {
     </div>
   );
 }
+
+export default BookTitle;
