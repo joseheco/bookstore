@@ -4,10 +4,10 @@ import BookForm from './BookForm';
 import './Book.css'
 
 const BookCreate = () => (
-    <>
-      <Book />
-      <BookForm />
-    </>
-  );
+  <>
+    <Book />
+    <BookForm />
+  </>
+);
 
 export default BookCreate;

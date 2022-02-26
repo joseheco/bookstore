@@ -1,7 +1,6 @@
 import React from 'react';
 
-const BookTitle = () => {
-  return (
+const BookTitle = () => (
     <div className="title">
       <p>Mystery</p>
       <h2>Harry Potter</h2>
@@ -13,6 +12,5 @@ const BookTitle = () => {
       </div>
     </div>
   );
-}
 
 export default BookTitle;
