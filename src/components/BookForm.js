@@ -10,11 +10,12 @@ const BookForm = () => {
   const [category, setCategory] = useState('');
   const [errorBook, setErrorBook] = useState('');
   const categories = ['Select Category',
-  'Action',
-  'Science-Fiction',
-  'Ecology',
-  'Gastronomy',
-  'Anime',];
+    'Action',
+    'Science-Fiction',
+    'Ecology',
+    'Gastronomy',
+    'Anime',
+];
 
   const getAuthor = (e) => {
     setAuthor(e.target.value);
