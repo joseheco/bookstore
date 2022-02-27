@@ -15,7 +15,7 @@ const BookForm = () => {
     'Ecology',
     'Gastronomy',
     'Anime',
-];
+  ];
 
   const getAuthor = (e) => {
     setAuthor(e.target.value);
@@ -69,9 +69,9 @@ const BookForm = () => {
             value={author}
             required
           />
-            <span>
-              {errorBook}
-            </span>
+          <span>
+            {errorBook}
+          </span>
         </div>
         <select className="input" onChange={getCategory} value={category}>
           {

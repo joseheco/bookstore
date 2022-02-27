@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBookApi } from '../redux/books/books';
 import BookPorcent from './BookPorcent';
@@ -7,7 +6,7 @@ import BookProgress from './BookProgress';
 
 const Book = ({
   // eslint-disable-next-line camelcase
-  item_id, author, title, category,
+  item_id, title, category,
 }) => {
   const dispatch = useDispatch();
   const remove = () => {
@@ -36,6 +35,5 @@ const Book = ({
     </>
   );
 };
-
 
 export default Book;
