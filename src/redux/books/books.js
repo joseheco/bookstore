@@ -23,6 +23,7 @@ export const getBooks = (payload) => ({
   payload,
 });
 
+// eslint-disable-next-line consistent-return
 export const sendBooksApi = (data) => async (dispatch) => {
   try {
     await Axios.post(apiUrl, data);
@@ -32,6 +33,7 @@ export const sendBooksApi = (data) => async (dispatch) => {
   }
 };
 
+// eslint-disable-next-line consistent-return
 export const loadBooksApi = () => async (dispatch) => {
   try {
     const { data } = await Axios.get(apiUrl);
@@ -45,7 +47,7 @@ export const loadBooksApi = () => async (dispatch) => {
     return error;
   }
 };
-
+// eslint-disable-next-line consistent-return
 export const removeBookApi = (payload) => async (dispatch) => {
   try {
     await Axios.delete(`https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/jXufyteg6B6rkzIRQb0I/books/${payload}`);
