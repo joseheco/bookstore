@@ -6,7 +6,7 @@ import BookProgress from './BookProgress';
 
 const Book = ({
   // eslint-disable-next-line camelcase
-  item_id, title, category,
+  item_id, author, title, category,
 }) => {
   const dispatch = useDispatch();
   const remove = () => {
@@ -19,7 +19,7 @@ const Book = ({
           <li className="newBook">
             <h2 className="category">{category}</h2>
             <p className="title">{title}</p>
-            <p className="author">Author</p>
+            <p className="author">{author}</p>
             <button type="button" className="Comment">Comment</button>
             <button type="button" className="delBtn" onClick={() => { remove(item_id); }}>Remove</button>
             <button type="button" className="Edit">Edit</button>

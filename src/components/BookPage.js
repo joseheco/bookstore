@@ -4,7 +4,7 @@ import { loadBooksApi } from '../redux/books/books';
 import Book from './Book';
 
 const BookPage = () => {
-  const myBooks = useSelector( store => store.booksReducer );
+  const myBooks = useSelector((store) => store.booksReducer);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadBooksApi());
