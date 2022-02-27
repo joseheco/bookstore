@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Profile from '../img/profile.svg'
-
+import Profile from '../img/profile.svg';
 
 const NavBar = () => (
   <div>
@@ -17,7 +16,7 @@ const NavBar = () => (
           <Link to="categories">Categories</Link>
         </li>
       </ul>
-      <img className="profile" alt="Profile" src={Profile} /> 
+      <img className="profile" alt="Profile" src={Profile} />
     </nav>
   </div>
 );

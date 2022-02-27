@@ -4,9 +4,9 @@ ul {
   gap: 1rem;
   list-style: none;
   justify-content: flex-start;
+  padding: 2rem 6rem;
   padding-bottom: 3rem;
   align-items: center;
-  padding: 2rem 6rem;
 }
 
 li a {

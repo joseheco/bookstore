@@ -15,7 +15,7 @@
 .Book {
   display: flex;
   justify-content: space-around;
-  margin: 0rem 6rem;
+  margin: 0 6rem;
   align-items: center;
   margin-top: 2rem;
   border: 1px solid lightgray;
