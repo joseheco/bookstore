@@ -1,6 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { removeBookApi } from '../redux/books/books';
+import PropTypes from 'prop-types';
 import BookPorcent from './BookPorcent';
 import BookProgress from './BookProgress';
 
@@ -35,5 +36,9 @@ const Book = ({
     </>
   );
 };
-
+Book.propTypes = {
+  item_id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+};
 export default Book;
