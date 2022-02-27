@@ -10,11 +10,12 @@ const BookForm = () => {
   const [category, setCategory] = useState('');
   const [errorBook, setErrorBook] = useState('');
   const categories = ['Select Category',
-  'Action',
-  'Science-Fiction',
-  'Ecology',
-  'Gastronomy',
-  'Anime',];
+    'Action',
+    'Science-Fiction',
+    'Ecology',
+    'Gastronomy',
+    'Anime',
+  ];
 
   const getAuthor = (e) => {
     setAuthor(e.target.value);
@@ -66,14 +67,14 @@ const BookForm = () => {
             value={author}
             required
             />
-            <span>
-              {errorBook}
-            </span>
+          <span>
+            {errorBook}
+          </span>
         </div>
-        <select className="input" onChange={getCategory} value={category} >
+        <select className="input" onChange={getCategory} value={category}>
           {
             categories.map((category) => (
-              <option key={category} value={category} >{category}</option>
+              <option key={category} value={category}>{category}</option>
             ))
           }
         </select>
