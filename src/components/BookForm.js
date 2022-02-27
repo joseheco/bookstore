@@ -46,7 +46,7 @@ const BookForm = () => {
   };
   return (
     <div className="div-form">
-      <h2 className="title-book">Add New Book</h2>
+      <h2 className="title-book">ADD NEW BOOK</h2>
       <form className="form" onSubmit={sumitBook}>
         <div>
           <input

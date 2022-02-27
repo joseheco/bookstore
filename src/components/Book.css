@@ -15,11 +15,19 @@
 .Book {
   display: flex;
   justify-content: space-around;
-  margin: 6rem;
+  margin: 0rem 6rem;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   border: 1px solid lightgray;
   padding: 2rem;
+}
+
+.porcent {
+  margin: 1rem 0 0 0;
+}
+
+.porcent-name {
+  margin: 0;
 }
 
 .div-form {
@@ -31,6 +39,7 @@
 
 .form {
   display: flex;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -38,16 +47,17 @@
   background-color: #0090ff;
   border: none;
   border-radius: 5%;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 4rem;
   color: white;
 }
 
 .input {
   display: flex;
-  margin-top: 0.5rem;
   color: gray;
   border: 1px solid lightgray;
-  padding: 0.5rem 1.5rem;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  width: 20rem;
 }
 
 .newBook {
@@ -58,7 +68,7 @@
   display: flex;
   flex-direction: row;
   border-right: 2px solid lightgray;
-  padding-right: 4rem;
+  padding-right: 10rem;
 }
 
 .btn-progress {
@@ -107,4 +117,20 @@
 .num-chapter {
   font-size: 15px;
   font-weight: normal;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  margin-right: 7rem;
+  border: 1px solid lightgray;
+  border-radius: 60%;
+  padding: 0.6rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  align-items: center;
 }
