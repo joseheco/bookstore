@@ -1,0 +1,136 @@
+#root {
+  padding: 0;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem;
+}
+
+.title-book {
+  color: gray;
+}
+
+.Book {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 6rem;
+  align-items: center;
+  margin-top: 2rem;
+  border: 1px solid lightgray;
+  padding: 2rem;
+}
+
+.porcent {
+  margin: 1rem 0 0 0;
+}
+
+.porcent-name {
+  margin: 0;
+}
+
+.div-form {
+  display: flex;
+  flex-direction: column;
+  margin: 6rem 6rem;
+  border-top: 2px solid lightgray;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.addBtn {
+  background-color: #0090ff;
+  border: none;
+  border-radius: 5%;
+  padding: 0.5rem 4rem;
+  color: white;
+}
+
+.input {
+  display: flex;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 5%;
+  padding: 1rem 1rem;
+  width: 20rem;
+}
+
+.newBook {
+  list-style: none;
+}
+
+.completion {
+  display: flex;
+  flex-direction: row;
+  border-right: 2px solid lightgray;
+  padding-right: 10rem;
+}
+
+.btn-progress {
+  background-color: #0090ff;
+  border: none;
+  border-radius: 5%;
+  padding: 0.5rem;
+  color: white;
+}
+
+.newBook button {
+  all: unset;
+  margin-right: 0.5rem;
+  color: #8db9e0;
+  margin-top: 2rem;
+}
+
+.newBook button:not(:last-child)::after {
+  content: "";
+  border-left: 2px solid lightgray;
+  margin-left: 0.5rem;
+}
+
+.category {
+  font-size: 15px;
+  font-weight: bold;
+  color: gray;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+}
+
+.author {
+  color: #8db9e0;
+  margin: 0.4rem 0;
+}
+
+.chapter {
+  color: gray;
+  font-size: 15px;
+}
+
+.num-chapter {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  margin-right: 7rem;
+  border: 1px solid lightgray;
+  border-radius: 60%;
+  padding: 0.6rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid lightgray;
+  align-items: center;
+}
