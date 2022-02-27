@@ -7,13 +7,13 @@ import Categories from './components/Categories';
 
 
 const App = () => (
-    <BrowserRouter>
-      <NavBar />
-      <Routes>
-        <Route path="/" element={<BookCreate />} />
-        <Route path="categories" element={<Categories />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  <BrowserRouter>
+    <NavBar />
+    <Routes>
+      <Route path="/" element={<BookCreate />} />
+      <Route path="categories" element={<Categories />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;

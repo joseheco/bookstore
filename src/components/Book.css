@@ -5,10 +5,10 @@
 }
 
 .Book {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
 }
 
 .div-form {

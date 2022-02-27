@@ -41,4 +41,3 @@ Book.propTypes = {
   category: PropTypes.string.isRequired,
 };
 export default Book;
-
