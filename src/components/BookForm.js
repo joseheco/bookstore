@@ -66,15 +66,15 @@ const BookForm = () => {
             onChange={getAuthor}
             value={author}
             required
-            />
+          />
             <span>
               {errorBook}
             </span>
         </div>
-        <select className="input" onChange={getCategory} value={category} >
+        <select className="input" onChange={getCategory} value={category}>
           {
             categories.map((category) => (
-              <option key={category} value={category} >{category}</option>
+              <option key={category} value={category}>{category}</option>
             ))
           }
         </select>

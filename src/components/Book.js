@@ -6,6 +6,7 @@ import BookPorcent from './BookPorcent';
 import BookProgress from './BookProgress';
 
 const Book = ({
+  // eslint-disable-next-line camelcase
   item_id, author, title, category,
 }) => {
   const dispatch = useDispatch();
@@ -40,5 +41,5 @@ Book.propTypes = {
   title: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
 };
-export default Book;
 
+export default Book;
