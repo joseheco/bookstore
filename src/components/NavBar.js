@@ -5,6 +5,9 @@ const NavBar = () => (
   <div>
     <nav>
       <ul>
+        <li className="title-app">
+          Bookstore CMS
+        </li>
         <li>
           <Link to="/">Books</Link>
         </li>

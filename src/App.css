@@ -3,6 +3,21 @@ ul {
   flex-direction: row;
   gap: 1rem;
   list-style: none;
-  justify-content: flex-end;
-  margin-right: 4rem;
+  justify-content: flex-start;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 3rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.title-app {
+  color: #0090ff;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 2rem;
 }
